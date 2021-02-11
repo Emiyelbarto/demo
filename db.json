@@ -134,11 +134,5 @@
       "first_page": 1,
       "loading": false
     }
-  ],
-  "headers": [
-    {
-      "id": 1,
-      "name": "Header A"
-    }
   ]
 }
