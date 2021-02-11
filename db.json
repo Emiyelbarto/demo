@@ -121,6 +121,20 @@
       "horasSubproyectos": 16
     }
   ],
+  "proyectoPrueba": [
+    {
+      "numeroProyectos": 3,
+      "numeroSubproyectos": 4,
+      "ciclo": "Mensual",
+      "agrupacion": "Proyecto",
+      "projects": [],
+      "total_items": 3,
+      "current_page": 1,
+      "last_page": 1,
+      "first_page": 1,
+      "loading": false
+    }
+  ],
   "headers": [
     {
       "id": 1,
