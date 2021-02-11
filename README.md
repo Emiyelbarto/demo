@@ -1,7 +1,7 @@
-## Try it
+## Datos falsos para Intranet
 
-[https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)
+[https://my-json-server.typicode.com/Emiyelbarto/demo](https://my-json-server.typicode.com/Emiyelbarto/demo)
 
-## Use your own data
+## Data
 
-Fork it and change `db.json` values or create a repo with a `db.json` file.
+Hacer fork y cambiar los datos en db.json
