@@ -29,7 +29,11 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": 20,
-        "pruebas": 20,
+        "numPruebas": 20,
+        "pruebas": [
+          { "id": 1, "name": "Prueba A", "horas": 24 },
+          { "id": 2, "name": "Prueba B", "horas": 24 }
+        ],
         "issues": 2,
         "subProyectos": "Subproyecto A",
         "actividadesSubproyectos": "Actividad A",
@@ -59,7 +63,11 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": 20,
-        "pruebas": 20,
+        "numPruebas": 20,
+        "pruebas": [
+          { "id": 1, "name": "Prueba A", "horas": 24 },
+          { "id": 2, "name": "Prueba B", "horas": 24 }
+        ],
         "issues": 2,
         "subProyectos": "Subproyecto B",
         "actividadesSubproyectos": "Actividad B",
@@ -89,7 +97,11 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": 20,
-        "pruebas": 20,
+        "numPruebas": 20,
+        "pruebas": [
+          { "id": 1, "name": "Prueba A", "horas": 24 },
+          { "id": 2, "name": "Prueba B", "horas": 24 }
+        ],
         "issues": 2,
         "subProyectos": "Subproyecto C",
         "actividadesSubproyectos": "Actividad C",
@@ -119,7 +131,11 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": 20,
-        "pruebas": 20,
+        "numPruebas": 20,
+        "pruebas": [
+          { "id": 1, "name": "Prueba A", "horas": 24 },
+          { "id": 2, "name": "Prueba B", "horas": 24 }
+        ],
         "issues": 2,
         "subProyectos": "Subproyecto D",
         "actividadesSubproyectos": "Actividad D",
