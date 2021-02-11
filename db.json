@@ -35,7 +35,26 @@
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
         "issues": 2,
-        "subProyectos": "Subproyecto A",
+        "subproyectos": [
+          {
+            "id": 1,
+            "name": "Subproyecto A",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Subproyecto B",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+            ]
+          }
+        ],
         "actividadesSubproyectos": "Actividad A",
         "horasSubproyectos": 16
       },
@@ -69,7 +88,26 @@
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
         "issues": 2,
-        "subProyectos": "Subproyecto B",
+        "subproyectos": [
+          {
+            "id": 1,
+            "name": "Subproyecto A",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Subproyecto B",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+            ]
+          }
+        ],
         "actividadesSubproyectos": "Actividad B",
         "horasSubproyectos": 16
       },
@@ -103,7 +141,26 @@
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
         "issues": 2,
-        "subProyectos": "Subproyecto C",
+        "subproyectos": [
+          {
+            "id": 1,
+            "name": "Subproyecto A",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Subproyecto B",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+            ]
+          }
+        ],
         "actividadesSubproyectos": "Actividad C",
         "horasSubproyectos": 16
       },
@@ -137,7 +194,26 @@
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
         "issues": 2,
-        "subProyectos": "Subproyecto D",
+        "subproyectos": [
+          {
+            "id": 1,
+            "name": "Subproyecto A",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Subproyecto B",
+            "horas": 24,
+            "pruebas": [
+              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
+              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+            ]
+          }
+        ],
         "actividadesSubproyectos": "Actividad D",
         "horasSubproyectos": 16
       }
