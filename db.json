@@ -120,5 +120,11 @@
       "actividadesSubproyectos": "Actividad D",
       "horasSubproyectos": 16
     }
+  ],
+  "headers": [
+    {
+      "id": 1,
+      "name": "Header A"
+    }
   ]
 }
