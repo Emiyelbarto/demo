@@ -1,35 +1,26 @@
 {
   "proyectoPrueba": {
-    "ciclo": "Mensual",
-    "agrupacion": "Proyecto",
     "projects": [
       {
         "idProyecto": 1,
         "name": "Proyecto 1",
         "ciclo": "Mensual",
-        "cicloProyecto": "Mensual",
-        "actividadesProyecto": "Actividades",
         "horasProyecto": 16,
-        "idPrueba": 1,
-        "nombrePrueba": "Regresion UAT",
-        "horasPrueba": 14,
-        "notificaciones": 0,
         "notificacionesProyecto": [
           {
             "id": 1,
             "name": "Notificacion A",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
+            "fechaNotificacion": "28/01/2021"
           },
           {
             "id": 2,
             "name": "Notificacion B",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
+            "fechaNotificacion": "28/01/2021"
           }
         ],
-        "fechaNotificacion": "28/01/2021",
         "pruebasPendientes": 2,
-        "fechaAsignacion": "23/12/2020",
-        "horasAsignacion": 14,
         "fecha_ini": "16-07-2019",
         "fecha_fin": "16-02-2020",
         "baselineTotal": 20,
@@ -37,88 +28,10 @@
         "acumuladoTotal": 20,
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
-        "actividades": 20,
-        "numPruebas": 20,
-        "pruebas": [
-          { "id": 1, "name": "Prueba A", "horas": 24 },
-          { "id": 2, "name": "Prueba B", "horas": 24 }
+        "actividades": [
+          { "id": 1, "name": "Actividad A", "horas": 14 },
+          { "id": 2, "name": "Actividad C", "horas": 14 }
         ],
-        "issues": [
-          { "id": 1, "name": "Issue A", "horas": 24 },
-          { "id": 2, "name": "Issue B", "horas": 24 }
-        ],
-        "subproyectos": [
-          {
-            "id": 1,
-            "name": "Subproyecto A",
-            "horas": 24,
-            "actividadesSubproyectos": [
-              { "id": 1, "name": "Actividad A", "horas": 14 },
-              { "id": 2, "name": "Actividad C", "horas": 14 }
-            ],
-            "pruebas": [
-              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
-            ],
-            "issues": [
-              { "id": 1, "name": "Issue A", "horas": 24 },
-              { "id": 2, "name": "Issue B", "horas": 24 }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Subproyecto B",
-            "horas": 24,
-            "actividadesSubproyectos": [
-              { "id": 1, "name": "Actividad A", "horas": 14 },
-              { "id": 2, "name": "Actividad C", "horas": 14 }
-            ],
-            "pruebas": [
-              { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
-            ],
-            "issues": [
-              { "id": 1, "name": "Issue A", "horas": 24 },
-              { "id": 2, "name": "Issue B", "horas": 24 }
-            ]
-          }
-        ]
-      },
-      {
-        "idProyecto": 2,
-        "name": "Proyecto 2",
-        "ciclo": "Mensual",
-        "cicloProyecto": "Mensual",
-        "actividadesProyecto": "Actividades",
-        "horasProyecto": 16,
-        "idPrueba": 1,
-        "nombrePrueba": "Regresion UAT",
-        "horasPrueba": 14,
-        "notificacionesProyecto": [
-          {
-            "id": 1,
-            "name": "Notificacion A",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
-          },
-          {
-            "id": 2,
-            "name": "Notificacion B",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
-          }
-        ],
-        "fechaNotificacion": "28/01/2021",
-        "pruebasPendientes": 2,
-        "fechaAsignacion": "23/12/2020",
-        "horasAsignacion": 14,
-        "fecha_ini": "16-07-2019",
-        "fecha_fin": "16-02-2020",
-        "baselineTotal": 20,
-        "baselinePromedio": 20,
-        "acumuladoTotal": 20,
-        "acumuladoPromedio": 20,
-        "alcanceTotal": 20,
-        "actividades": 20,
-        "numPruebas": 20,
         "pruebas": [
           { "id": 1, "name": "Prueba A", "horas": 24 },
           { "id": 2, "name": "Prueba B", "horas": 24 }
