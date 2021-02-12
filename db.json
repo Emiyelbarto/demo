@@ -1,7 +1,5 @@
 {
   "proyectoPrueba": {
-    "numeroProyectos": 4,
-    "numeroSubproyectos": 4,
     "ciclo": "Mensual",
     "agrupacion": "Proyecto",
     "projects": [
@@ -16,7 +14,18 @@
         "nombrePrueba": "Regresion UAT",
         "horasPrueba": 14,
         "notificaciones": 0,
-        "notificacionesProyecto": 2,
+        "notificacionesProyecto": [
+          {
+            "id": 1,
+            "name": "Notificacion A",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          },
+          {
+            "id": 2,
+            "name": "Notificacion B",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          }
+        ],
         "fechaNotificacion": "28/01/2021",
         "pruebasPendientes": 2,
         "fechaAsignacion": "23/12/2020",
@@ -34,29 +43,46 @@
           { "id": 1, "name": "Prueba A", "horas": 24 },
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
-        "issues": 2,
+        "issues": [
+          { "id": 1, "name": "Issue A", "horas": 24 },
+          { "id": 2, "name": "Issue B", "horas": 24 }
+        ],
         "subproyectos": [
           {
             "id": 1,
             "name": "Subproyecto A",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
               { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           },
           {
             "id": 2,
             "name": "Subproyecto B",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           }
-        ],
-        "actividadesSubproyectos": "Actividad A",
-        "horasSubproyectos": 16
+        ]
       },
       {
         "idProyecto": 2,
@@ -68,14 +94,24 @@
         "idPrueba": 1,
         "nombrePrueba": "Regresion UAT",
         "horasPrueba": 14,
-        "notificaciones": 0,
-        "notificacionesProyecto": 2,
+        "notificacionesProyecto": [
+          {
+            "id": 1,
+            "name": "Notificacion A",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          },
+          {
+            "id": 2,
+            "name": "Notificacion B",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          }
+        ],
         "fechaNotificacion": "28/01/2021",
         "pruebasPendientes": 2,
         "fechaAsignacion": "23/12/2020",
         "horasAsignacion": 14,
-        "fecha_ini": "16/07/2019",
-        "fecha_fin": "16/02/2020",
+        "fecha_ini": "16-07-2019",
+        "fecha_fin": "16-02-2020",
         "baselineTotal": 20,
         "baselinePromedio": 20,
         "acumuladoTotal": 20,
@@ -87,29 +123,46 @@
           { "id": 1, "name": "Prueba A", "horas": 24 },
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
-        "issues": 2,
+        "issues": [
+          { "id": 1, "name": "Issue A", "horas": 24 },
+          { "id": 2, "name": "Issue B", "horas": 24 }
+        ],
         "subproyectos": [
           {
             "id": 1,
             "name": "Subproyecto A",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
               { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           },
           {
             "id": 2,
             "name": "Subproyecto B",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           }
-        ],
-        "actividadesSubproyectos": "Actividad B",
-        "horasSubproyectos": 16
+        ]
       },
       {
         "idProyecto": 3,
@@ -121,14 +174,24 @@
         "idPrueba": 1,
         "nombrePrueba": "Regresion UAT",
         "horasPrueba": 14,
-        "notificaciones": 0,
-        "notificacionesProyecto": 2,
+        "notificacionesProyecto": [
+          {
+            "id": 1,
+            "name": "Notificacion A",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          },
+          {
+            "id": 2,
+            "name": "Notificacion B",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          }
+        ],
         "fechaNotificacion": "28/01/2021",
         "pruebasPendientes": 2,
         "fechaAsignacion": "23/12/2020",
         "horasAsignacion": 14,
-        "fecha_ini": "16/07/2019",
-        "fecha_fin": "16/02/2020",
+        "fecha_ini": "16-07-2019",
+        "fecha_fin": "16-02-2020",
         "baselineTotal": 20,
         "baselinePromedio": 20,
         "acumuladoTotal": 20,
@@ -140,29 +203,46 @@
           { "id": 1, "name": "Prueba A", "horas": 24 },
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
-        "issues": 2,
+        "issues": [
+          { "id": 1, "name": "Issue A", "horas": 24 },
+          { "id": 2, "name": "Issue B", "horas": 24 }
+        ],
         "subproyectos": [
           {
             "id": 1,
             "name": "Subproyecto A",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
               { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           },
           {
             "id": 2,
             "name": "Subproyecto B",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           }
-        ],
-        "actividadesSubproyectos": "Actividad C",
-        "horasSubproyectos": 16
+        ]
       },
       {
         "idProyecto": 4,
@@ -174,14 +254,24 @@
         "idPrueba": 1,
         "nombrePrueba": "Regresion UAT",
         "horasPrueba": 14,
-        "notificaciones": 0,
-        "notificacionesProyecto": 2,
+        "notificacionesProyecto": [
+          {
+            "id": 1,
+            "name": "Notificacion A",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          },
+          {
+            "id": 2,
+            "name": "Notificacion B",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+          }
+        ],
         "fechaNotificacion": "28/01/2021",
         "pruebasPendientes": 2,
         "fechaAsignacion": "23/12/2020",
         "horasAsignacion": 14,
-        "fecha_ini": "16/07/2019",
-        "fecha_fin": "16/02/2020",
+        "fecha_ini": "16-07-2019",
+        "fecha_fin": "16-02-2020",
         "baselineTotal": 20,
         "baselinePromedio": 20,
         "acumuladoTotal": 20,
@@ -193,29 +283,46 @@
           { "id": 1, "name": "Prueba A", "horas": 24 },
           { "id": 2, "name": "Prueba B", "horas": 24 }
         ],
-        "issues": 2,
+        "issues": [
+          { "id": 1, "name": "Issue A", "horas": 24 },
+          { "id": 2, "name": "Issue B", "horas": 24 }
+        ],
         "subproyectos": [
           {
             "id": 1,
             "name": "Subproyecto A",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
               { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           },
           {
             "id": 2,
             "name": "Subproyecto B",
             "horas": 24,
+            "actividadesSubproyectos": [
+              { "id": 1, "name": "Actividad A", "horas": 14 },
+              { "id": 2, "name": "Actividad C", "horas": 14 }
+            ],
             "pruebas": [
               { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2 },
-              { "id": 2, "name": "Prueba B", "horas": 14, "issues": 2 }
+              { "id": 2, "name": "Prueba C", "horas": 14, "issues": 2 }
+            ],
+            "issues": [
+              { "id": 1, "name": "Issue A", "horas": 24 },
+              { "id": 2, "name": "Issue B", "horas": 24 }
             ]
           }
-        ],
-        "actividadesSubproyectos": "Actividad D",
-        "horasSubproyectos": 16
+        ]
       }
     ],
     "total_items": 4,
