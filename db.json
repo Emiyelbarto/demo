@@ -18,12 +18,12 @@
           {
             "id": 1,
             "name": "Notificacion A",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
           },
           {
             "id": 2,
             "name": "Notificacion B",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
           }
         ],
         "fechaNotificacion": "28/01/2021",
@@ -98,12 +98,12 @@
           {
             "id": 1,
             "name": "Notificacion A",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
           },
           {
             "id": 2,
             "name": "Notificacion B",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit, sit amet interdum ipsum est sit amet urna. Sed efficitur risus sed magna euismod, sed eleifend neque aliquam. Aliquam interdum sit amet nisi quis suscipit. Mauris sed nibh ut nisi vehicula facilisis. Sed ornare congue nisi, sit amet malesuada neque posuere et. Suspendisse potenti. Integer tempus, mauris quis congue condimentum, erat justo dignissim elit, sed sodales urna odio vitae nisl. Nullam non consectetur est. Ut pulvinar erat vitae lorem volutpat auctor. Ut ornare nec orci in gravida. Curabitur lacinia facilisis auctor. Proin a ultrices lectus. Duis tellus dui, gravida tempus quam eu, fermentum mattis urna."
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit"
           }
         ],
         "fechaNotificacion": "28/01/2021",
