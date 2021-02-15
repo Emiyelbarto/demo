@@ -11,13 +11,13 @@
             "id": 1,
             "name": "Notificacion A",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-            "fechaNotificacion": "28/01/2021"
+            "fechaNotificacion": "28-01-2021"
           },
           {
             "id": 2,
             "name": "Notificacion B",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-            "fechaNotificacion": "28/01/2021"
+            "fechaNotificacion": "28-01-2021"
           }
         ],
         "pruebasPendientes": 2,
@@ -29,8 +29,8 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": [
-          { "id": 1, "name": "Actividad A", "horas": 14 },
-          { "id": 2, "name": "Actividad C", "horas": 14 }
+          { "id": 1, "name": "Actividad A", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020" },
+          { "id": 2, "name": "Actividad C", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020"  }
         ],
         "pruebas": [
           { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2, "fecha": "16-01-2020" },
@@ -87,13 +87,13 @@
             "id": 1,
             "name": "Notificacion A",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-            "fechaNotificacion": "28/01/2021"
+            "fechaNotificacion": "28-01-2021"
           },
           {
             "id": 2,
             "name": "Notificacion B",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-            "fechaNotificacion": "28/01/2021"
+            "fechaNotificacion": "28-01-2021"
           }
         ],
         "pruebasPendientes": 2,
@@ -105,8 +105,8 @@
         "acumuladoPromedio": 20,
         "alcanceTotal": 20,
         "actividades": [
-          { "id": 1, "name": "Actividad A", "horas": 14 },
-          { "id": 2, "name": "Actividad C", "horas": 14 }
+          { "id": 1, "name": "Actividad A", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020"  },
+          { "id": 2, "name": "Actividad C", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020"  }
         ],
         "pruebas": [
           { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2, "fecha": "16-01-2020" },
@@ -170,13 +170,13 @@
         "id": 1,
         "name": "Notificacion A",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-        "fechaNotificacion": "28/01/2021"
+        "fechaNotificacion": "28-01-2021"
       },
       {
         "id": 2,
         "name": "Notificacion B",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dui hendrerit, luctus lectus eu, interdum odio. Maecenas fringilla, justo sit amet placerat gravida, libero erat auctor elit",
-        "fechaNotificacion": "28/01/2021"
+        "fechaNotificacion": "28-01-2021"
       }
     ],
     "pruebasPendientes": 2,
@@ -188,8 +188,8 @@
     "acumuladoPromedio": 20,
     "alcanceTotal": 20,
     "actividades": [
-      { "id": 1, "name": "Actividad A", "horas": 14 },
-      { "id": 2, "name": "Actividad C", "horas": 14 }
+      { "id": 1, "name": "Actividad A", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020"  },
+      { "id": 2, "name": "Actividad C", "horas": 14, "tipo": "Junta", "asignado": "Gerente", "fecha": "16-02-2020"  }
     ],
     "pruebas": [
       { "id": 1, "name": "Prueba A", "horas": 14, "issues": 2, "fecha": "16-01-2020" },
